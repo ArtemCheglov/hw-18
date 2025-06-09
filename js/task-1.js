@@ -1,6 +1,6 @@
 const itemsEl = document.querySelectorAll(".item");
-const titleText = item.querySelector("h2").textContent;
-const itemsNumber = item.querySelectorAll("ul > li").length;
+const titleText = document.querySelector("h2").textContent;
+const itemsNumber = document.querySelectorAll("ul > li").length;
 console.log(`У списку ${itemsEl.length} категорії.`);
 
 itemsEl.forEach(item => {
